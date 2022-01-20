@@ -1,0 +1,42 @@
+body {
+    color: white;
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    background-color: red;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+header nav {
+    background-color: orange;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+main {
+    background-color: green;
+    padding: 0.5rem;
+}
+
+main article {
+    padding: 1.5rem 0.5rem;
+    margin-bottom: 0.25rem;
+    background-color: blue;
+}
+
+footer {
+    background-color: blueviolet;
+    font-size: 32px;
+    text-align: center;
+}
+
+a {
+    color: white;
+}
