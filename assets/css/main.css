@@ -21,8 +21,10 @@
     --primary-darker: var(--blue-1);
     --secondary: var(--purple);
     --secondary-darker: var(--purple-1);
+
+    --font-roboto: 'Roboto', sans-serif;
 }
 
 * {
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--font-roboto);
 }
