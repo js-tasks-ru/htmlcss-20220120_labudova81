@@ -1,0 +1,11 @@
+.header {
+    padding: 6rem 0 5rem;
+    background: var(--white);
+    margin: 0;
+}
+
+.header__title {
+    font-family: var(--font-inter);
+    font-weight: 500;
+    color: var(--black);
+}
