@@ -29,21 +29,21 @@
     align-items: center;
 }
 
-.skeleton__header__lines {
+.skeleton__header-lines {
     flex-grow: 1;
 
     display: flex;
     flex-direction: column;
 }
 
-.skeleton__header__small-line {
+.skeleton__line_small-line {
     max-width: 172px;
 }
 
-.skeleton__header__big-line {
+.skeleton__line_big-line {
     max-width: 257px;
 }
 
-.skeleton__body__line {
+.skeleton__line_body-line {
     width: 100%;
 }
