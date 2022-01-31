@@ -1,12 +1,11 @@
-.accordion {
+.accordion__item {
     border: 1px solid var(--grey-3);
     border-radius: 0.5rem;
-    margin-bottom: 0.5rem;
     padding: 1.5rem 2rem;
 }
 
-.accordion:last-child {
-    margin-bottom: 0;
+.accordion__item:not(:last-child) {
+    margin-bottom: 0.5rem;
 }
 
 .accordion__summary::-webkit-details-marker {  /* нестандартный псевдоэлемент Google Chrome */
@@ -23,10 +22,12 @@
 }
 
 .accordion__text {
+    margin: 0;
+
     font-family: var(--font-inter);
     font-size: 1rem;
     line-height: 1.5rem;
     color: var(--black);
-    margin-top: 1rem;
-    margin-bottom: 0.5rem;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
 }
