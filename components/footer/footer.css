@@ -1,0 +1,19 @@
+.footer {
+    text-align: center;
+    padding-top: 71px;
+    padding-bottom: 136px;
+}
+
+.footer__title {
+    font-family: var(--font-inter);
+    font-weight: 500;
+    margin-bottom: 2rem;
+    color: var(--black);
+}
+
+.footer__description {
+    font-family: var(--font-inter);
+    max-width: 640px;
+    margin: auto;
+    color: var(--black);
+}
