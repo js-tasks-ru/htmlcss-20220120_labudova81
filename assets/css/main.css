@@ -15,6 +15,9 @@
     --grey-3: #ACB5BD;
     --grey-4: #495057;
     --grey-5: #F9FAFC;
+    --grey-6: #E2E6E8;
+    --grey-7: #F3F5F5;
+    --grey-8: #E3E7EA;
 
     --error: var(--red);
     --success: var(--blue);
