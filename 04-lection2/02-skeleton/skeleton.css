@@ -37,11 +37,11 @@
 }
 
 .skeleton__line_small-line {
-    max-width: 172px;
+    max-width: 33%;
 }
 
 .skeleton__line_big-line {
-    max-width: 257px;
+    max-width: 55%;
 }
 
 .skeleton__line_body-line {
