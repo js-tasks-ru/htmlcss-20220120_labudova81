@@ -34,3 +34,8 @@
 * {
     font-family: var(--font-roboto);
 }
+
+html,
+body {
+    height: 100%;
+}
