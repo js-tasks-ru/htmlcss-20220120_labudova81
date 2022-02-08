@@ -33,11 +33,12 @@
     flex-wrap: nowrap;
     gap: 1px;
     width: 100%;
+    height: 41px;
 
     margin-top: 2.5rem;
 }
 
 .histogram__statistics-item {
     background-color: var(--blue);
-    width: inherit;
+    flex-basis: 11px;
 }
