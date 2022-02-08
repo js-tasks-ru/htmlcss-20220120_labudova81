@@ -29,7 +29,7 @@
     bottom: 0;
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    grid-template-rows: repeat(5, 1fr);
+    grid-template-rows: repeat(6, 1fr);
 }
 
 .calendar__item {
@@ -37,8 +37,6 @@
     font-size: 14px;
     line-height: 20px;
     color: var(--grey-9);
-    width: 100%;
-    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -50,11 +48,11 @@
     margin-bottom: 1.5rem;
 }
 
-.calendar__item__active {
+.calendar__item_active {
     background: var(--blue);
     color: var(--white);
 }
 
-.calendar__item__active_between {
+.calendar__item_active-between {
     background-color: rgba(var(--blue-rgb), 0.2);
 }
