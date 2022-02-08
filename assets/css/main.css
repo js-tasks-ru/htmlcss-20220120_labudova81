@@ -1,6 +1,8 @@
 @import './normalize.css';
 @import '../fonts/fonts.css';
 
+@import '../../components/page/page.css';
+
 :root {
     --white: #ffffff;
     --black: #212429;
@@ -35,6 +37,6 @@
     --font-source-sans-pro: 'Source Sans Pro', sans-serif;
 }
 
-* {
+body {
     font-family: var(--font-roboto);
 }
