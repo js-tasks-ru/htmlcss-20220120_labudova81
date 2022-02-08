@@ -1,11 +1,6 @@
-body {
-    padding: 4rem;
-}
-
 .tooltip {
     display: inline-block;
     position: relative;
-    text-align: center;
 }
 
 .tooltip__description {
@@ -39,12 +34,4 @@ body {
 
 .tooltip__picture {
     cursor: pointer;
-}
-
-body {
-    text-align: center;
-}
-
-p {
-    margin: 0;
 }
