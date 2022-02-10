@@ -1,6 +1,8 @@
 @import './normalize.css';
 @import '../fonts/fonts.css';
 
+@import '../../components/page/page.css';
+
 :root {
     --white: #ffffff;
     --black: #212429;
@@ -9,6 +11,7 @@
     --purple: #7048E8;
     --purple-1: #5028C6;
     --blue: #4263EB;
+    --blue-rgb: 66, 99, 235;
     --blue-1: #2342C0;
     --red: #F03D3E;
     --red-1: #D84910;
@@ -20,6 +23,8 @@
     --grey-6: #E2E6E8;
     --grey-7: #F3F5F5;
     --grey-8: #E3E7EA;
+    --grey-9: #334D6E;
+    --grey-10: #90A0B7;
 
     --error: var(--red);
     --success: var(--blue);
@@ -31,9 +36,10 @@
 
     --font-roboto: 'Roboto', sans-serif;
     --font-inter: 'Inter', sans-serif;
+    --font-source-sans-pro: 'Source Sans Pro', sans-serif;
 }
 
-* {
+body {
     font-family: var(--font-roboto);
 }
 
