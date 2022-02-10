@@ -4,7 +4,7 @@
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(var(--grey-9-rgb), 0.5);
+    background-color: rgba(var(--grey-11-rgb), 0.5);
 }
 
 .modal__close {
@@ -20,10 +20,9 @@
     background: var(--white);
     border-radius: 0.5rem;
     top: 50%;
-    left: 50%;
-    transform: translate(calc(-50% - 2.5rem), -50%);
+    transform: translateY(calc(-50% - 2.5rem));
 
-    position: relative;
+    position: absolute;
 }
 
 .modal__content {
