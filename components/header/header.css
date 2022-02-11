@@ -9,3 +9,9 @@
     font-weight: 500;
     color: var(--black);
 }
+
+@media (max-width: 1119px) {
+    .header {
+        padding: 16px 0 69px;
+    }
+}

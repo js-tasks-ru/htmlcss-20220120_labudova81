@@ -4,3 +4,12 @@
     flex-wrap: wrap;
     padding: 67px 0 92px;
 }
+
+@media (max-width: 1119px) {
+    .preview {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(164px, 1fr));
+        gap: 1rem;
+        padding: 24px 0 133px 0;
+    }
+}

@@ -24,3 +24,28 @@
     line-height: 25px;
     color: var(--black);
 }
+
+@media (max-width: 1119px) {
+    .card {
+        padding: 0;
+    }
+
+    .card__top {
+        border-bottom: 1px solid var(--grey-10);
+    }
+
+    .card__title {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+
+        font-family: var(--font-inter);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+
+        margin: 10px 0 10px;
+    }
+}

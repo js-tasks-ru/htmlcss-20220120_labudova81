@@ -1,0 +1,31 @@
+
+.header__logo {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+}
+
+.header__logo-square {
+    width: 30px;
+    height: 30px;
+    background: var(--black);
+}
+
+.header__logo-circle {
+    width: 32px;
+    height: 32px;
+    background: var(--black);
+    border-radius: 50%;
+}
+
+.header__logo-triangle {
+    border: 16px solid transparent;
+    border-bottom: 16px solid var(--black);
+    border-left: 16px solid var(--black);
+}
+
+@media (max-width: 1119px) {
+    .header__logo {
+        margin-bottom: 3rem;
+    }
+}
