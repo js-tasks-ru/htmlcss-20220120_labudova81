@@ -8,14 +8,13 @@
     flex-basis: 350px;
     height: 367px;
     text-align: center;
+
+    display: flex;
+    flex-direction: column;
 }
 
 .card__top {
-
-}
-
-.card__body {
-    padding-top: 1.5rem;
+    flex-grow: 1;
 }
 
 .card__title {
