@@ -1,0 +1,20 @@
+.menu__heading {
+    font-family: var(--font-inter);
+    color: var(--black-1);
+    margin-bottom: 1rem;
+}
+
+.menu__item {
+    font-family: var(--font-inter);
+    font-size: 14px;
+    line-height: 22px;
+    color: var(--black);
+}
+
+.menu__item_active {
+    color: var(--red-1);
+}
+
+.menu__item_back {
+    margin-top: 2rem;
+}

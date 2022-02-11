@@ -1,3 +1,6 @@
+@import '../../components/component/component.css';
+@import '../../components/menu/menu.css';
+
 .page {
     display: grid;
     height: 100%;
@@ -9,13 +12,13 @@
     background-color: var(--grey-2);
 }
 
-.page .page__header {
+.page__header {
     grid-area: header;
     background-color: var(--white);
     height: 82px;
 }
 
-.page .page__main {
+.page__main {
     width: 100%;
     grid-area: main;
     display: grid;
@@ -25,11 +28,7 @@
     max-width: 1100px;
 }
 
-.page .page__main .component {
-    background-color: white;
-}
-
-.page .page__footer {
+.page__footer {
     grid-area: footer;
     text-transform: uppercase;
     height: 130px;
@@ -38,25 +37,4 @@
     line-height: 18px;
     letter-spacing: 0.04em;
     color: var(--grey-3);
-}
-
-.menu__heading {
-    font-family: var(--font-inter);
-    color: var(--black-1);
-    margin-bottom: 1rem;
-}
-
-.menu__item {
-    font-family: var(--font-inter);
-    font-size: 14px;
-    line-height: 22px;
-    color: var(--black);
-}
-
-.menu__item_active {
-    color: var(--red-1);
-}
-
-.menu__item_back {
-    margin-top: 2rem;
 }
