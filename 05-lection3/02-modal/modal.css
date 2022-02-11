@@ -20,7 +20,8 @@
     background: var(--white);
     border-radius: 0.5rem;
     top: 50%;
-    transform: translateY(calc(-50% - 2.5rem));
+    left: 50%;
+    transform: translate(calc(-50% - 2.5rem), calc(-50% - 2.5rem));
 
     position: absolute;
 }
