@@ -1,0 +1,37 @@
+.page {
+    display: grid;
+    height: 100%;
+    grid-template-rows: auto 1fr auto;
+    grid-row-gap: 28px;
+    grid-template-areas: "header"
+                         "main"
+                         "footer";
+    background-color: var(--grey-2);
+}
+
+.page__header {
+    grid-area: header;
+    background-color: var(--white);
+    height: 82px;
+}
+
+.page__main {
+    width: 100%;
+    grid-area: main;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-column-gap: 56px;
+    justify-self: center;
+    max-width: 1100px;
+}
+
+.page__footer {
+    grid-area: footer;
+    text-transform: uppercase;
+    height: 130px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    color: var(--grey-3);
+}
