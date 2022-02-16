@@ -8,19 +8,19 @@
     background-size: cover;
 }
 
-@media (max-width: 480px) {
+@media (min-width: 0px) {
     .wrapper {
         background-image: url(./public/forest_400.jpg);
     }
 }
 
-@media (min-width: 401px) and (max-width: 768px) {
+@media (min-width: 401px) {
     .wrapper {
         background-image: url(./public/forest_768.jpg);
     }
 }
 
-@media (min-width: 769px) and (max-width: 1024px) {
+@media (min-width: 769px) {
     .wrapper {
         background-image: url(./public/forest_1024.jpg);
     }
