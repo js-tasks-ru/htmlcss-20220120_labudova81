@@ -6,6 +6,7 @@
 :root {
     --white: #ffffff;
     --black: #212429;
+    --black-rgb: 33, 36, 41;
     --black-1: #000000;
     --pink: #F784AD;
     --purple: #7048E8;
@@ -25,6 +26,8 @@
     --grey-8: #E3E7EA;
     --grey-9: #334D6E;
     --grey-10: #90A0B7;
+    --grey-11: #C4C4C4;
+    --grey-11-rgb: 196, 196, 196;
 
     --error: var(--red);
     --success: var(--blue);
