@@ -3,9 +3,37 @@
 <html lang="ru">
     <head>
         <link rel="stylesheet" href="../../assets/css/main.css">
+        <link rel="stylesheet" href="../../components/form/form.css">
         <link rel="stylesheet" href="./checkbox.css">
     </head>
     <body>
+        <h5 class="label__title">Checkbox</h5>
+        <div class="checkbox">
+            <label class="checkbox__wrapper">
+                <input type="checkbox" class="checkbox__input" name="name" tabindex="1">
+                <div class="checkbox__state">
+                    <div class="checkbox__control">
+                        <svg class="checkbox__icon">
+                            <use href="../../assets/images/svg_sprite.svg#checkbox-check"></use>
+                        </svg>
+                    </div>
+                    <div class="checkbox__label">Default</div>
+                </div>
+            </label>
+        </div>
 
+        <label class="checkbox">
+            <div class="checkbox__wrapper">
+                <input type="checkbox" class="checkbox__input" name="name" tabindex="2" disabled>
+                <div class="checkbox__state">
+                    <div class="checkbox__control">
+                        <svg class="checkbox__icon">
+                            <use href="../../assets/images/svg_sprite.svg#checkbox-check"></use>
+                        </svg>
+                    </div>
+                    <div class="checkbox__label">Disabled</div>
+                </div>
+            </div>
+        </label>
     </body>
 </html>
