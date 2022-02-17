@@ -3,9 +3,44 @@
 <html lang="ru">
     <head>
         <link rel="stylesheet" href="../../assets/css/main.css">
+        <link rel="stylesheet" href="../../components/form/form.css">
         <link rel="stylesheet" href="./radio.css">
     </head>
     <body>
+        <h5 class="label__title">Radio button</h5>
+        <div class="radio">
+            <label class="radio__wrapper">
+                <input type="radio" class="radio__input" name="name">
+                <div class="radio__state">
+                    <div class="radio__control">
+                        <div class="radio__icon"></div>
+                    </div>
+                    <div class="radio__label">Default</div>
+                </div>
+            </label>
+        </div>
+        <div class="radio">
+            <label class="radio__wrapper">
+                <input type="radio" class="radio__input" name="name">
+                <div class="radio__state">
+                    <div class="radio__control">
+                        <div class="radio__icon"></div>
+                    </div>
+                    <div class="radio__label">Some other</div>
+                </div>
+            </label>
+        </div>
 
+        <div class="radio">
+            <label class="radio__wrapper">
+                <input type="radio" class="radio__input" name="name" disabled>
+                <div class="radio__state">
+                    <div class="radio__control">
+                        <div class="radio__icon"></div>
+                    </div>
+                    <div class="radio__label">Disabled</div>
+                </div>
+            </label>
+        </div>
     </body>
 </html>
